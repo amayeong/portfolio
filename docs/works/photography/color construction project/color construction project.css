@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Readex+Pro:wght@600&display=swap');
+
+.color-construct-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px;
+    transition: 0.5s;
+    image-rendering: auto;
+}
+
+.header-1 {
+    text-align: left;
+    top: 0;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0,0,0);
+    text-decoration: none;
+    background: fixed;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.cc-1 {
+    max-width: 500px;
+    padding: 10px;
+}

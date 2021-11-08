@@ -1,0 +1,170 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Readex+Pro:wght@600&display=swap');
+
+
+.homelogo {
+    font-family: 'Readex Pro', sans-serif;
+    text-decoration: none;
+    color: rgb(0,0,0);
+    text-align: left;
+    font-size: 36px;
+    display: block;
+    position: relative;
+}
+.homelogo a {
+  text-decoration: none;
+  color: rgb(0,0,0);
+}
+
+span {
+  display: flex;
+  flex-wrap: wrap;
+}
+body {
+    font-family: 'Readex Pro', sans-serif;
+  }
+  
+.cursor {
+    margin-top: 0px;
+    margin-left: 500px;
+  }
+  .overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0);
+    overflow-y: hidden;
+    overflow-x: 1;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+    top: 20px;
+    right: 50px;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+
+  }
+  .dropbtn {
+    background-color: rgb(0,0,0);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 36px;
+  }
+  
+  
+  .dropdown {
+    font-family: 'Readex Pro', sans-serif;
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    font-family: 'Readex Pro', sans-serif;
+    display: none;
+    position: relative;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0);
+    z-index: 1;
+  }
+  
+ 
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Readex Pro', sans-serif;
+  }
+  
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+
+  .dropdown:hover .dropdown-content {display: block;}
+  
+ 
+  .dropdown:hover .dropbtn {background-color: #000000;}
+  
+  @media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px;
+  }
+
+  .gallery-img-1 {
+    width: 80%;
+    height: 500;
+    transition: all .5s;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gallery-img-2 {
+    width: 80%;
+    height: 300;
+    transition: all .5s;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+  }
+
+  footer {
+    font-family: 'Readex Pro', sans-serif;
+    display: block;
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(0,0,0);
+    color: white;
+  }
+
+  .footer-content {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 10px;
+    text-align: right;
+    padding-right: 5px;
+  }

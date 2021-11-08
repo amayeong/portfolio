@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Yeon Park</title>
+
+    </head>
+
+        <body>
+
+          <header>
+            <div class="homelogo">
+                <a href="home.html">YEONPARK</a></div>
+                <span style="font-size: 30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+          </header>
+
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <nav class="overlay-content">
+                      <a href="about/about.html">About</a>
+                      <div class="dropdown">
+                        <button class="dropbtn">Works</button>
+                        <div class="dropdown-content">
+                            <a href="works/photography/portraits/portraits.html">Portraits</a>
+                            <a href="works/photography/color construction project/color construction project.html">Color Construction Project</a>
+                            <a href="works/photography/still life/still life.html">Still Life</a>
+                        </div>
+                      </div>
+                      <a href="contact">Contact</a>
+                    </nav>
+                  </div>
+                  
+                  
+                  <script>
+                  function openNav() {
+                    document.getElementById("myNav").style.height = "100%";
+                  }
+                  
+                  function closeNav() {
+                    document.getElementById("myNav").style.height = "0%";
+                  }
+                  </script>
+                      
+
+        <div class="gallery-container">
+            <a class="home-image" href="works/"><img class="gallery-img-1" src="FA21_ColorConcepts_FinalProject_1 copy.jpg"></a>
+            <a class="home-image-2" href="works/"><img class="gallery-img-2" src="FA21_CC_Final Project_4 copy.jpg"></a>
+        </div>
+
+        <footer>
+          <p class="footer-content">
+            email - yeonpp99@gmail.com
+          </p>
+          <p class="footer-content">
+            instagram - @amayeong
+          </p>
+        </footer>
+                
+        </body> 
+</html>      
